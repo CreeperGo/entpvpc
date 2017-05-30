@@ -539,7 +539,7 @@ class upd extends PluginTask
 {
     public function onRun($ct)
     {
-        echo memory_get_usage() . "\n";
+       // echo memory_get_usage() . "\n";
         $s = Server::getInstance();
         $ls = $s->getLevels();
         foreach ($ls as $l) {
